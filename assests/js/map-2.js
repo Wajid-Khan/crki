@@ -1,0 +1,1 @@
+function initialize(){var e={zoom:13,scrollwheel:!1,center:new google.maps.LatLng(40.74061,-73.935242)},o=new google.maps.Map(document.getElementById("googleMap-2"),e);new google.maps.Marker({position:o.getCenter(),icon:"img/map-marker-2.png",map:o})}google.maps.event.addDomListener(window,"load",initialize);
